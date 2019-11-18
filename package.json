@@ -1,0 +1,21 @@
+{
+  "name": "testing-version",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "push:patch": "npm run test && npm version patch && git push origin master && git checkout productivo && git merge master && git push origin productivo && git checkout master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebaLinares/testing-version.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebaLinares/testing-version/issues"
+  },
+  "homepage": "https://github.com/sebaLinares/testing-version#readme"
+}

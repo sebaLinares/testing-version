@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "push:patch": "npm version patch && git push origin master && git checkout productivo && git merge master && git push origin productivo && git checkout master"
+    "push:petch": "npm version patch && git push origin master && git checkout productivo && git merge master && git push origin productivo && git checkout master"
   },
   "repository": {
     "type": "git",
